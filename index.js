@@ -1,4 +1,4 @@
-import _ from "lodash";
+import func from "./src/index.js";
 
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+const result = func();
+console.log(result);
